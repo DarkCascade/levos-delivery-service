@@ -67,3 +67,30 @@ Start Game
 ----------
 The game will initialize the currently selected town and move the player to the main play screen.
 
+Main Game Play
+--------------
+--------------
+The primary play screen consists of an image of the currently selected town, and a grid of available routes. The grids
+are light gray squares along roads. The image will show buildings and such to represent package sources. As new
+packages become available, little package icons will pop up on the screen. When the player has a package on their
+vehicle, destinations will show up on the map. The player can draw routes of any length. When the route passes over
+an available package, the player will pick that package up if their vehicle has room. When the route passes over
+an available destination, the player will gain time and cash for the delivery, and the package will be removed from
+their vehicle, allowing them to pick up another one. The game will continue until time runs out. Any time a left turn
+is executed, the player should be notified and the game should increment a counter.
+
+When the round has ended, the total time, total cash, and total left turns should be shown to the player. The resulting
+cash total minus number of left turns (multiplied by a penalty per left turn) will then result in a net cash gained.
+This net total should be applied to the player's cash total, and the player will be returned to the main menu.
+
+Traffic Density
+---------------
+Each town's traffic density affects the speed of traffic lights, as well as the number of other cars on the road.
+These obstacles will inhibit the player's progress.
+
+Town Size
+---------
+The bigger a town is, the more package sources and destinations it has, and the more roads and available routes it has.
+Bigger towns will allow the player more freedom, but also increase the traffic density to compensate. Bigger towns
+should offer the player more incentive in the form of time and cash for successful deliveries.
+
