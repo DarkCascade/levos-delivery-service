@@ -67,9 +67,9 @@ Start Game
 ----------
 The game will initialize the currently selected town and move the player to the main play screen.
 
-==============
+--------------
 Main Game Play
-==============
+--------------
 The primary play screen consists of an image of the currently selected town, and a grid of available routes. The grids
 are light gray squares along roads. The image will show buildings and such to represent package sources. As new
 packages become available, little package icons will pop up on the screen. When the player has a package on their
